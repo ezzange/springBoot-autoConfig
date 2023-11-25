@@ -12,7 +12,7 @@ import org.springframework.transaction.TransactionManager;
 import javax.sql.DataSource;
 
 @Slf4j
-@Configuration
+//@Configuration
 //DataSource , TransactionManager , JdbcTemplate 을 스프링 빈으로 직접 등록
 public class DbConfig {
     //JdbcTemplate 을 사용해서 회원 데이터를 DB에 보관하고 관리하는 기능
